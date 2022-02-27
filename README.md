@@ -9,10 +9,14 @@ git clone https://github.com/hgxv/Projet_2_OC.git
 py -m venv env
 
 #For windows :
+
 env\scripts\activate
 
-#For linux:
+#For linux :
+
 source env/bin/activate
+
+#Import modules
 
 pip freeze < requirements.txt
 
