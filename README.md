@@ -1,25 +1,25 @@
 # Projet_2_OC
 
-#To create the virtual environment :
+# Clone the project
 
-git clone https://github.com/hgxv/Projet_2_OC.git
+`git clone https://github.com/hgxv/Projet_2_OC.git`
 
-#Get to the folder with the cd command
+# Create the virtual environment
 
-py -m venv env
+`py -m venv env`
 
-#For windows :
+# For windows :
 
-env\scripts\activate
+`env\scripts\activate`
 
-#For linux :
+# For linux :
 
-source env/bin/activate
+`source env/bin/activate`
 
-#Import modules
+# Install modules
 
-pip freeze < requirements.txt
+`py -m pip install -r requirements.txt`
 
-#Then execute the program with :
+# Then execute the program with :
 
-py bookscrap.py
+`py bookscrap.py`
